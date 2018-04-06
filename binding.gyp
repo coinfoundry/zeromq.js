@@ -1,6 +1,6 @@
 {
   'variables': {
-    'zmq_external%': 'false',
+    'zmq_external%': 'true',
   },
   'targets': [
     {
