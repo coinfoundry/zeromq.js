@@ -36,7 +36,7 @@
             }],
             ['OS=="openbsd" or OS=="freebsd"', {
              'include_dirs': [
-               '<!@(pkg-configsad3 libzmq --cflags-only-I | sed s/-I//g)',
+               '<!@(pkg-config libzmq --cflags-only-I | sed s/-I//g)',
                 '/usr/local/include'],
               'libraries': [
                 '<!@(pkg-config libzmq --libs)',
